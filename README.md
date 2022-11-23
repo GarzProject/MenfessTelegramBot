@@ -39,7 +39,7 @@ BOT_TOKEN = "54321:abcde" // token bot
 CHANNEL = "-6969" // id channel bukan username
 LINK = "t.me/garzmenfess" // link channel publik
 ADMIN = [12344, 1111] // id admin untuk broadcast
-DELAY= 60 // jarak waktu pengguna memposting
+DELAY = 60 // jarak waktu pengguna memposting
 TAG = ["#spill", "#random", "#curhat", "#ask", "#jokes"] // tag untuk menfess
 
 
