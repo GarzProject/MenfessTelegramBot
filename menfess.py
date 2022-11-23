@@ -13,6 +13,7 @@ try:
 	import telebot
 	import time
 	import os
+	import json
 	from dotenv import load_dotenv
 	from telebot import types
 except:
@@ -27,8 +28,8 @@ load_dotenv()
 token = os.getenv("BOT_TOKEN")
 ch = os.getenv("CHANNEL")
 link = os.getenv("LINK")
-admin = os.getenv("ADMIN")
-trigger = os.getenv("TAG")
+admin = json.loads(os.getenv("ADMIN"))
+trigger = json.loads(os.getenv("TAG"))
 delay = os.getenv("DELAY")
 mulai = '''
 Selamat Datang Di *Garz Menfess*
